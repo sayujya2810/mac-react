@@ -1,0 +1,25 @@
+#appbar-main{
+    position: absolute;
+    bottom: 1%;
+    width: 60%;
+    height: 4rem;
+    left: 20%;
+    background-color: rgba(51, 51, 51, 0.452);
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.apps:nth-child(n):hover , .app:nth-child(n):hover{
+    transform: scale(1.2) translatey(-10px);
+    transition: all .1s ease-in-out;
+}
+/* .apps:hover + .apps , .app:hover + .app {
+    transform: scale(1.1) translatey(-2px);
+} */
+
+.apps{
+    height: 50px;
+}

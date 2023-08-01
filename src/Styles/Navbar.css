@@ -1,0 +1,30 @@
+#nav-main{
+    background-color: rgba(184, 156, 115, 0.411);
+    width: 100%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    height: 2rem;
+}
+
+#nav-left, #nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+#nav-right{
+    width: 20%;
+}
+.hover{
+    padding: 2px;
+}
+
+.hover:hover{
+    background-color: rgb(184, 156, 115);
+    /* transform: scale(1.1); */
+    transition: all ease-in-out .1s;
+}
